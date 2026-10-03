@@ -1,0 +1,6 @@
+{
+  "name": "CareerForge AI",
+  "description": "AI-Powered Technical Interview & Skill Gap Simulator for targeted job preparation, skill analysis, adaptive mock interviews, and personalized career roadmaps.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

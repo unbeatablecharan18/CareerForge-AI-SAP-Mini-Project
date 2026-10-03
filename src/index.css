@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #050811;
+    color: #f1f5f9;
+    overflow-x: hidden;
+  }
+
+  code, pre {
+    font-family: var(--font-mono);
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #090d18;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}
+
+/* Pulse animation for the Career Readiness Orb */
+@keyframes orbPulse {
+  0%, 100% {
+    transform: scale(1);
+    filter: drop-shadow(0 0 24px rgba(99, 102, 241, 0.45));
+  }
+  50% {
+    transform: scale(1.03);
+    filter: drop-shadow(0 0 36px rgba(14, 165, 233, 0.65));
+  }
+}
+
+.career-orb-pulse {
+  animation: orbPulse 4s ease-in-out infinite;
+}
+
+@keyframes spinSlow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.spin-slow {
+  animation: spinSlow 30s linear infinite;
+}

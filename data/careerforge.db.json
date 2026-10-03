@@ -1,0 +1,1152 @@
+{
+  "users": [
+    {
+      "id": "usr_admin_master",
+      "email": "admin@careerforge.ai",
+      "passwordHash": "$2b$10$R0uVbo1i7Nf3C9N.Zam59e47lgQr9R38c1n9UIMtFejOnh3Rtu5b.",
+      "name": "Forge Administrator",
+      "role": "admin",
+      "targetRoleTitle": "Engineering Director",
+      "experienceYears": 10,
+      "createdAt": "2026-10-03T07:44:14.436Z",
+      "updatedAt": "2026-10-03T07:44:14.436Z"
+    },
+    {
+      "id": "usr_candidate_demo",
+      "email": "candidate@careerforge.ai",
+      "passwordHash": "$2b$10$lAkGRFLzB/CqlzW18PcSkO2mKzzLFt7zyNPNjH0hFa0YDJFf6ohli",
+      "name": "Alex Rivera",
+      "role": "user",
+      "targetRoleTitle": "Full-Stack Software Engineer",
+      "experienceYears": 3,
+      "createdAt": "2026-10-03T07:44:14.532Z",
+      "updatedAt": "2026-10-03T07:44:14.532Z"
+    },
+    {
+      "id": "usr_1791013484598_aac2b5f5",
+      "email": "sarah.chen@test.com",
+      "passwordHash": "$2b$10$mzeImJVLVmamLaCvN8rsJuDuHveSxfcu2jnE2KWE6H4VsjQDh2UUa",
+      "name": "Sarah Chen",
+      "role": "user",
+      "targetRoleTitle": "Frontend Tech Lead",
+      "experienceYears": 2,
+      "createdAt": "2026-10-03T07:44:44.598Z",
+      "updatedAt": "2026-10-03T07:44:44.598Z"
+    }
+  ],
+  "sessions": [
+    {
+      "id": "sess_1791013484601",
+      "userId": "usr_1791013484598_aac2b5f5",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6InVzcl8xNzkxMDEzNDg0NTk4X2FhYzJiNWY1IiwiZW1haWwiOiJzYXJhaC5jaGVuQHRlc3QuY29tIiwicm9sZSI6InVzZXIiLCJuYW1lIjoiU2FyYWggQ2hlbiIsImlhdCI6MTc5MTAxMzQ4NCwiZXhwIjoxNzkxNjE4Mjg0fQ.QDzgGOMbaDh0eJL6QJOjWdCoVHzvIYj8VK5R5PvX2h0",
+      "expiresAt": "2026-10-10T07:44:44.601Z",
+      "createdAt": "2026-10-03T07:44:44.601Z"
+    },
+    {
+      "id": "sess_1791013503600",
+      "userId": "usr_admin_master",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6InVzcl9hZG1pbl9tYXN0ZXIiLCJlbWFpbCI6ImFkbWluQGNhcmVlcmZvcmdlLmFpIiwicm9sZSI6ImFkbWluIiwibmFtZSI6IkZvcmdlIEFkbWluaXN0cmF0b3IiLCJpYXQiOjE3OTEwMTM1MDMsImV4cCI6MTc5MTYxODMwM30.vsKONQCnBH5EDqvwYZkg3P_Pw3I74M_G0DVhxBH9VHY",
+      "expiresAt": "2026-10-10T07:45:03.600Z",
+      "createdAt": "2026-10-03T07:45:03.600Z"
+    },
+    {
+      "id": "sess_1791014249408",
+      "userId": "usr_candidate_demo",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6InVzcl9jYW5kaWRhdGVfZGVtbyIsImVtYWlsIjoiY2FuZGlkYXRlQGNhcmVlcmZvcmdlLmFpIiwicm9sZSI6InVzZXIiLCJuYW1lIjoiQWxleCBSaXZlcmEiLCJpYXQiOjE3OTEwMTQyNDksImV4cCI6MTc5MTYxOTA0OX0.46PdLecDeeJt9-9iUD3YmuhHydmMtOqBqZ6Y_rKgtXo",
+      "expiresAt": "2026-10-10T07:57:29.408Z",
+      "createdAt": "2026-10-03T07:57:29.408Z"
+    },
+    {
+      "id": "sess_1791014504556",
+      "userId": "usr_candidate_demo",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6InVzcl9jYW5kaWRhdGVfZGVtbyIsImVtYWlsIjoiY2FuZGlkYXRlQGNhcmVlcmZvcmdlLmFpIiwicm9sZSI6InVzZXIiLCJuYW1lIjoiQWxleCBSaXZlcmEiLCJpYXQiOjE3OTEwMTQ1MDQsImV4cCI6MTc5MTYxOTMwNH0.Tu2Aon1NQ7TCrvXExfO3ZjHYL5qn4096imS5FM-0-uM",
+      "expiresAt": "2026-10-10T08:01:44.556Z",
+      "createdAt": "2026-10-03T08:01:44.556Z"
+    }
+  ],
+  "resumes": [
+    {
+      "id": "res_demo_alex",
+      "userId": "usr_candidate_demo",
+      "filename": "alex_rivera_fullstack_resume.pdf",
+      "originalName": "Alex_Rivera_Software_Engineer.pdf",
+      "fileSize": 45280,
+      "mimeType": "application/pdf",
+      "rawText": "Alex Rivera\nEmail: alex.rivera@example.com | GitHub: github.com/alexrivera\nSan Francisco, CA\n\nPROFESSIONAL SUMMARY\nSoftware Engineer with 3 years building scalable React web applications, TypeScript microservices, and PostgreSQL database layers. Passionate about clean APIs and high-performance UI.\n\nEXPERIENCE\nSoftware Engineer | Apex Cloud Systems (2023 - Present)\n- Engineered modern React and TypeScript frontend workflows serving 150k monthly active users.\n- Built Node.js and Express RESTful services integrated with PostgreSQL databases, improving query latency by 35%.\n- Designed CI/CD workflows using GitHub Actions and containerized microservices with Docker.\n- Integrated Redis caching layer for session management and rate limiting.\n\nJunior Full-Stack Developer | Nexus Labs (2021 - 2023)\n- Developed responsive web interfaces using React, Tailwind CSS, and Next.js.\n- Implemented Python automation scripts and REST endpoints for data ingestion.\n- Collaborated with product teams to deliver 12 major feature rollouts on schedule.\n\nEDUCATION\nB.S. in Computer Science | University of California, Berkeley (2017 - 2021)\nRelevant Coursework: Data Structures, Algorithms, Database Systems, Computer Networks.\n\nSKILLS\nLanguages: TypeScript, JavaScript, Python, SQL, HTML, CSS\nFrameworks & Libraries: React, Node.js, Express, Next.js, Tailwind CSS, Jest\nDatabases: PostgreSQL, Redis, SQLite\nTools & Platforms: Git, Docker, GitHub Actions, AWS (S3, EC2), Postman",
+      "createdAt": "2026-10-03T07:44:14.532Z",
+      "updatedAt": "2026-10-03T07:44:14.532Z",
+      "profileId": "prof_demo_alex"
+    },
+    {
+      "id": "res_1791014270716_eb12804f",
+      "userId": "usr_candidate_demo",
+      "filename": "res_1791014270716_eb12804f_Sreecharan_Resume.docx",
+      "originalName": "Sreecharan_Resume.docx",
+      "fileSize": 10697,
+      "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "rawText": "PK\u0003\u0004\n\u0000\u0000\u0000\u0000\u0000�p�\\\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0005\u0000\u0000\u0000word/PK\u0003\u0004\n\u0000\u0000\u0000\u0000\u0000�p�\\\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u000b\u0000\u0000\u0000word/_rels/PK\u0003\u0004\n\u0000\u0000\u0000\b\u0000�p�\\ƚOe�\u0000\u0000\u0000!\u0004\u0000\u0000\u001c\u0000\u0000\u0000word/_rels/document.xml.rels���N\u0003!\u0010�_�pﲭZ�)�1�Y\u001f���?q\u0019\bL�}{1v+5\r��93��29���fb\u001f��hQ�EUs\u0006�m;b/�[�r�ȷ��+L��D\u0018F\u0017X|�A��=\t\u0011�\u0000F��:���7�b�{�~W=�e]��O=��'۵��]��9:�����Qó�\u0007\u0003HWV�@�\tBtT�\u0007�����\u000f\u0017��/K�ǃك�w�%8K9�ے\u0010�����3��\u001c�]I\b��\u000fì�\u0010�f\u0001����4��\u001cª$��滕 �J\u000e�l\u001a�\u001a�� M�I�!��_�|\u0001PK\u0003\u0004\n\u0000\u0000\u0000\b\u0000�p�\\vf.�'\u000b\u0000\u0000eM\u0000\u0000\u0011\u0000\u0000\u0000word/document.xml�\\�r\"�\u0019��[��H�Ԃ���\u000fYφ��î�8\u0006��^�n\u0001�Ւ\"�a����E��6�T���\t�\b�%us0`c<����Ut���I�'�'���\u001f>�\f\r��T��\\i��C��\"�����\u0016\u000erH\u001b�#�\u0004'ǹ1ѹ\u001f�|?:�D�Ą\u001b\u0014�G�>\u0017\nw\u0019�\u001f�vѨ��F���C\u0000���H�ǹ�1�(\bt8 1�;1\r�ТgvB\u0011\u0007�ף!\tFBEA�X*�3�DH����1\u001fb��ŋhB\u0012\u000e7{B�����\u00071V7�,\u0000�Ćv)�f\f��j\u0006#�s��G)Da�![��w(=d5�:��*');��@\u0011\u0006}\u0010\\\u000f����)\u001a�\u001cd û�\u0018�l:\u0004��Ǎ���#8L\u0001��~�+����n�Rq�\u0011�\u0010�\u001a�ta�ͬ'1�|��F�̐[�{\u0018@�6��?npΔH�\u0014�>\u000e��o&XV�\u001f��\u000e�h�q�i\u000f��h`�q=�t�Y�� \u001c`e��)F�� {�ap�\bT�\u0000\b\u0004,�\u0016�*\u000f��\u0006�W\u000b@k��[@Ы\u0005�5'�m�%�U7C*/\"�o�TYD:�\fia:�!��\u0000�Nu\fǕ��\b�A,\"�*ScX��dM��t� U� ��cq���p�\u0013\u001c:۟�:3\u0003�#\u0013\r\u001e�R�ls`�b�\u0007X\u000ff\u0011\u001ff�@_3�q\f\u001c���+��=�.K\u000f�*=�\u0019�a,���#��\u0005x�R\u0011�rA��[@�`�]\t\tO\f1;�Y;ǈ�\u0010\n& ���\u0011�R:���ʌ��C��\ncD��\u001a��\u0007\u000fj�rM#���U>�_%��-�'�L�Ȟ��X\u0017�3^�d��\u0015W�}q0W�x(�!C�M[B��u���&Y��!\u0013���j٨O�`��c�!��\u0011���e�\u0017\u0017�|����|�\u001asc~���<z\u0010��\u001eeP���R��_2�\u000e;d\u0004���\u000b��l,PW�����r���+\u00112�V@\u0004��\u0004���ßk�C��P\t�\f\u0001��Y��\u0001����\nn�}V�\u0014\"�:f���#D�]\u0012�MMS<W8��jLK�������њ�\u000e���?e��rVR��e����ZC'\u001ap\"\u0015�D\rI��e�ur}v}^sd�\n^�{Y)U�/-��F���vUk�ˋ|\u001b�5,�Z��\u0013�j5c1\u0005Z2��\u0019�wk����m�K\u0007�D��{�������4�P��l��\r�h�5[��U�u�ڝ�F����\u0004���.����*�W'p�L-�\u0016\t�ek\u0010����\u001bp�Ĝ̳P��\u000b��p�4:\\������!��a\t�\u0017\u000f+U�[:8��|���\u0011Jx�@<�e�&0��\u000e�܏1e6�}�����\u0007B��\u0010��.��C\u0018�}�q\u001e5yD�����!j���\u001fN��\u001cC�g��:�r�����\r��z#������60��?'\u001d���\u0010��Q�����G<�@�^\bI�c3\u0010|K�\nz.p8���s�7�%��8�B�斱\u0015�����?X�ǵP�L����\u0013n��*��u.��R���R�CE�ٲ�J!����o�Y��\u00195����wIw\u001bG�\u0011i��نP�D\u0007J@�\u0017��`C��ӪPS�qb�r�/c��\n�:\u0004�#�n�\u0004�\"��\u0004BN���n��򴂧Z���~\u0017�v5�\u000e�\u001a'��Z�����\r+�ҷ��#���\u001d���(�v[& .j��� \f���}H�����=���ڇ\u0016jrm�\u0001����R�ƙn5\n:��@\u0011�\u0015Wͮ�\u0003j��r\u001c��/��r�\\A��\r��>zUQ\u0011��`����R?��\u001d���\n\nP���awQո�4O�ޏm�f�E�DM�\u0011���.�\u0007؜]v��\u0010o끐N\u0007��T��^�*V�)`0ݍ�?�ړ�m�z�{�\u001e���R~��Ekn\u0018�n��2Wg6�d;�Vn\u0018��A�F��ٿ�\nu���.1:��\u0019��U��\u001e����]���}~Jnh&�d�!�M��)����\u0016x+.᭸\u0016o\u0017��!6$Z\f�gcGm��~�\u0007Bp3 �F\u0005c�\nl���<\u001aQ3@\u0018�T\u0002*P\u000ePD�\u001aX\u0019ڣ!��\u00153F���<�ӗ5,}Y�w�|/a��\r\u000eoPD��\tis�\u001d��\u0007\u001d�\u0006u\u0013��w��T84��j\u001e)�Ya$\u0014��\u0016,q_�qxK(@\u0019��=&\u0012q2�Kkz�m�\u0005Ĕ�\u001dt.č\u0005\u0006���^\f��\u001d\u0004\u0005�\r5.0�)$�\u0014�$\u001c2Z���dc��^�j�Ni��\u0004[�@*��+\t�o���\ba8Ϥ$j��y��\u0019_�f\\^���Q��\u001f�\u0018���1k�\u0019+�\u0014 �Au�}g�~ÛGW\u0018��#���Y5�T\"4�ً�X\u001b2���ic�=��\u0005c�?@\u0010��{^�Y�>fsF:3��\b}ű^>�\u001f!��c���\u001a��� �N\u0019�7�M_n~�l拳�\u0016���β�,H1\u0002�\u001f!�-\u0002��c��2���Y�\u0010\u0002|x���N��U�0\u000b?��~\u0019�zΈ�?5\u0010%���\u0013\u0014%\u000eG�X\u0018\u0002�V\u001b���X2��\u000e\r��}�U�(��Ce��\u0001��p\u001f�\t3\u0014���5�\u001e̶\rpB�A#\b��I��?�5�\u0001�\u0011H�\t�\u0005�|/\u000e\u0000R\u001b\u0016��\u0018�DC|AE�ቡ�\u000fg�!\u00144\u0004G� \u0018AJ+F��\b�i'\u0001&�p\u001f\"\u001b`G\u001a\u00176��~\u0003\u0012%\u001c'0\u0019\u0015�\u0004�\u0001�\"Q��)\u000f6\u0016�\u001c�\u001f8l]�=+�\u0010��K�a\n@b~��f뾶���h�3�u{GW\u001e�[�̫�t�u�&]�K���$��.�P*�-�����z�Y\u0017�9f�O`��n\u000f�\u0018���s\n���]�P\t�Ai�*\"h\r\u0012FHs�d\u0007u\u0014\u0006wi�R\u0017|�f��E�H�������\u0015��kd�\u001ab�KX��´}d����q���=3��zH��:\u0007i��\u001eV1Q���d\u0002���@X�\u0003U)�?�a�����\u000e����>\u0017��\b���.�\u0007�h\b�K\u0011�$�Kx��\u0002�\u001f8v��CH����`B�m����n�����иh�:�lKl�����4\u001b\u001b,�W�,�?�+���y�v\t��\u0018��\u0003�\n]\u0010|պ�([����}\u001e��W�\u0014�\u0014TՂs�c����Q3֠T�\u0019��ު@�\u000f\u001fgo�\u001f�q�\u0011�&�>\\ݯH/u�jR2J,����\tF(xHl��\f?�&\u000f�\u0012����`\u0007�\u0018!0�p+\"�5#\u0017��\u0012\u001e��y���j�\u0012�\u001f�%������\u001c8�\u0017��\u0018R\u001bpLp\u000fA:��d��MWn3�s>\f�\u0015��D)��9�\u0004,%ڨq�HL�p:/��K�F\u001fR\t�����\u0018铙\u0005m\b�x�r-\thQj� ��d�*�Rv�7����\b�?��A\u0003R7�o[)�Oe��~3�\u0000��\u000e�9�\u0012�\u000b�\u0015\n�xj����-#FH�\u001a\u0010�/��s\u001f1�\u0017~�<.��vL��\u0007��'����'�]\u0016�&ZI�\u0019K�\"\u0011ڟ��x��6�?�U&� \u0013'�~\u001f$��Bڛ�\u0001PK\u0003\u0004\n\u0000\u0000\u0000\b\u0000�p�\\��%��\u0002\u0000\u0000�\u0010\u0000\u0000\u000f\u0000\u0000\u0000word/styles.xml�V[O�0\u0018�+Q�!��\u0005*\n�\n\u0015Hӆ\u0018hϮ�4\u0016���\u000e���ى�����\u0006&mo�.9>��>=ʈ�������w\u001dD!�1���������\b\th\f\b�h�.�p��N�C!\u0017\u0004\t'���\u0019e\u001cL��΃ș\u0007}�Q�T\f38rS)��\t��\f�C�#��\t�\u0019���3/\u0003���\u000f �r �\u0014\u0013,\u0017^��\u0003\u000b�wAaI�!�`��\u0010���\u001eGD!2*R�\u000b�6�\u0005m�x�s\u0006�\u0010�\u0012\u0019��2�i\r\u0013D\r�\fC�\u0004K�\u0012c\u0018�P���/ed\t�\u001b@h\u0001t�c\u0006/P\u0002\n\"�6�\r7���|��\u001a�e��P.rմ\u001cp0� O]Ǆ��{�%A�Q\u0014d:�\u0011\u0010�-Ϙ\u0002��\u001f�F���*Dѓ���=)K�\u0019�%�g��\u001fTI�y,^�<��\u0019z�J�B@�q�Pa\u0002NХ\u0012�\b�67�<���� ��M��oO�a���%�\u001b�\u0018v��^��އI\f&���qCb�AbԁĨUbԥD\\\u001ax,�Wz���~���'\f��\u0007��\u0007�0j�%�SrFg\r���!�i�U��{�~�B�ԑu�:�,�۸/9�Ӏ���\u0012�\rW1N0}hv��l:�\\�5�\t��J,�\rǌ�'��=91\u0011��\u0018�J\u0011�WX����\u0007����\n�ԏ����^��J'�I�$�E\t��׼�\u0013���:�+�\u0002e�\n�1�[*�\u001e��\u000b���4Q�6\b�q.��\r��NMy�p��ۆMτ��U���Cn^E9���f>\u0004�ꤚ\n-G\u001d��US\u001b��~t�B2S\u001c�y�m\u0015�\u001b�,��y���W�&8:�YVg�qj+tg���幤��ۆ��qٌ���fe�y�V@��M[W�^R\u0013�d�V[�w���\u0012g\u0000PK\u0003\u0004\n\u0000\u0000\u0000\u0000\u0000�p�\\\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\t\u0000\u0000\u0000docProps/PK\u0003\u0004\n\u0000\u0000\u0000\b\u0000�p�\\p�E\u0004<\u0001\u0000\u0000�\u0002\u0000\u0000\u0011\u0000\u0000\u0000docProps/core.xml��]o�0\u0014��\n�=\u0014�@�\u0000&���L��e������G�N�߯�\"f��}�>yρbq�u�\u0007�V%ʒ\u0014E���BmK��^�s\u00149O\u0015��VP�#8��\nf\b�\u0016^�6`�\u0000\u0017\u0005�r��\u0012��7\u0004c�v �K\u0002�B��VR\u001f�v�\re�t\u000bx��9��)���V\u0018�ވ�J�z���u'�\fC\r\u0012�w8K2|e=X��>�\u0001)�?\u001a��^>8уM�$͸CC�\f�^޺Qc��M1@U�\u0019a\u0016�׶zW��\u0012x�\u0007��\u0002k��*lz#�?\u001e\u0007�߬�-�E����#�cq\u001e��\u0006\u001e���4�%�\u0018?=���\u001a��<Ngq6]g\u0013��d����W[��q��s��Z�Ӂ�\"���?N�\u000bPK\u0003\u0004\n\u0000\u0000\u0000\b\u0000�p�\\\u001e)�Zp\u0002\u0000\u0000d\f\u0000\u0000\u0012\u0000\u0000\u0000word/numbering.xml͗Kn�0\u0010��\"p�Pr�\u0007�(A� �����\u0007�%�&�\u0017HJ���Ew��g�I:�,�Q �e\u0004�ƴ83��\u00149C���Y��2%S\u0014]�(�2S9��\u0014}|\u0018LQ`\u001d�9�J�\u0014��Ew�7U\"\u000b1�\u0006�\u0002�%��T��98TQ\u001cT�(�t\u0014�\u0000��&��R�rN'\u0018�lE\u0005�W�eFY�pW�\u0012X-\u0016,��R&��0\n�ڨ�Z\u000b9�\u0011Y\u0012����4��\u0004�B\u0019A\u001c<�%\u0016�<\u0015z\u0000tM\u001c�3��\u001a��Ũ\u0014\u0015F&\u001bĠ\u0013�C�F�fh#�1y��{�\u0015�JWgĆrР�]1�]F_\u001a\u0018W-�|i\u0011���-�����ސ\n�-�\u0018�y\u0013$x��eb\u0014\u001e�#\u001e�E\u001c#a?g�D\u0010&��{����\u001b�N\u0003\f\u000f\u0001zy��7��[\u001a;�6�O\u001d�\u0017�\t��&�.͞'�ۊh�|�!s�\f���B\u0004{O�\u001cZ\u0017�m'1\u0014���Mwz�pԼ5�<�(�)���}�%�kM\u0001T\u0012\u000e\n�s��O�ƽ\ra��K\u000e\u000e\f\u0006\u001f]'pP�P�%�)�O���DM\u001c4�\u0007�M�\u000bΩ눏��3����������.6����\u0003�9��t�&C�$Y\u0011�����8��x�k֡��u��8U|\u0014�=�\u000f_E��?��\u001fF�\u001e�/��\f��\u001e��\u000b99 ���х����OՎ/���>U;�\u0014��>U;�\u0010������{7�FUP�6���\r:�\u000f\u0016\u0001�/�!\u0000� ݹ�%�ضQx/�~�>9��>��\u0007PK\u0003\u0004\n\u0000\u0000\u0000\u0000\u0000�p�\\\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0006\u0000\u0000\u0000_rels/PK\u0003\u0004\n\u0000\u0000\u0000\b\u0000�p�\\\u001f����\u0000\u0000\u0000�\u0002\u0000\u0000\u000b\u0000\u0000\u0000_rels/.rels���J\u00031\u0010�_%̽;�VD�i/R�M�>@Hfw��\u001f&S�oo(�V��C�����7C\u0016�CةW��S�0mZP\u0014mr>�\u001a����\u001d���'�\u0019��2�\\Tm�E� ��\u0011�\u001d(�ҤL��t���z�\u001e��/�'���-�O\u0006�2��i����ھg�����[zHv\u001f(ʙ'~%*�pO��-�C�Yn*\u0016���r��'�@b�\u0011�61M2�n\u0016O�[��<�r9&Ƅ��\\\u000f\u001d��#7�dr\u001e3�����\u0017I�\u0015\u001d3_Jx�1�\u001fPK\u0003\u0004\n\u0000\u0000\u0000\b\u0000�p�\\�����\u0001\u0000\u00008\b\u0000\u0000\u0013\u0000\u0000\u0000[Content_Types].xml�V�N�0\u0010��(WԸp@\b����\b\u001c�\u0003\\{�\u001ab�eo\n�=��!\u0005�R��e=3;\u0013�F������\u0012B4��i1�3p\n�q�4~�\u001b]�W��Ӈ��1��i� �BD�\u0000+c�\u001e\u001c#%\u0006+��P\t/ի�@����B�#p4��#�Mn��MM���<����&�wU�ݾ��*N��^ŋ���=���'����\"��\u0015�);�T�W�eu���Q�Y�Jz_\u001b%��b���9��3(\u0002�-'.���\f\u0018�\u00079|\u0015���ɰ,�\u0002���,)p^6�٠�I�\u00045Q{m\u000f���h���\u001b\u0006�\u0003*������\u0016�Ҹ��<�@��ro��bKY�� 9\"}�\u0010w\u0007Xa���,��\u0000#6�\u0010���』�F���|a�DB{�uK=�9�mҠ\u000f��փN�5v\u000e��w\u000f{\u000b\u000f\u001a�D$�Էq[x�\u0010<�=\u00196谟\u001d\u0010�S߇�F\u0007���&�'�\u0006\u001dx\u001b����з\rkx\u0013B��\u0002�OPK\u0003\u0004\n\u0000\u0000\u0000\b\u0000�p�\\Xy�\"�\u0000\u0000\u0000�\u0000\u0000\u0000\u0013\u0000\u0000\u0000docProps/custom.xml��A\n�0\u0010�᫔��T\u0017\"�i7��Eu\u001f�i\u001bhfB&-��F\u0004\u000f�����k��_�\r�8&\rǲ�\u0002���h���o�\u000b\u0014�\f\rfaB\r;\ntms�\u001c0&�Rd�DÜR��\u0012;�7R�L��\u001c�Iy�I�8:�W��GJ�TUgeWI�\u000f���׫��/9����g����\rPK\u0003\u0004\n\u0000\u0000\u0000\b\u0000�p�\\���ړ\u0000\u0000\u0000�\u0000\u0000\u0000\u0010\u0000\u0000\u0000docProps/app.xml��A\n�0\u0010�᫄�m�\u000b�Ҵ\u001bq���\u000fɴ\r43!\u0013K{{#�\u0007p�����\u0016\u0016�BbO�屪�\u0000��<NZ>���\"\u0005g��,���\u000e,���'���\u0007\u0016\u0005@�r�96J��!\u0018�J�RFJ��2Ӥh\u001c��+�W\u0000��T�g\u0005[\u0006t�\u000e�\u0007ʯج�_ԑ�������\rPK\u0003\u0004\n\u0000\u0000\u0000\b\u0000�p�\\��ɑ�\u0001\u0000\u0000�\u0006\u0000\u0000\u0012\u0000\u0000\u0000word/footnotes.xmlՔ�N�0\u0010�_%�uR\u0001ZEM9�@�\u0010�}\u0000�8����l'�o���M�,�\n=q��f~����w��V8/�\u0014$[�$\u0011�C)ͮ ~?,~��\u0007fJ�����'��u�W\u0000�@\u0010>A��ygyA�\u0010lN����/��\u000e<Ta�AS�*�\u0005���t�f�0�\u000e��\u001e��1�2O\"N�O\u0003+\f\u001eV�4\u000b�t;��{k�\u0002�\u0005�*�\f{d�7\u0007\f\u0014�q&���$�w�GAq8x�s�.��\u001b-L\u0018\"R'\u0014j\u0000�ki�4�K���\u0000iO%�jE�\u0016dW���ޱ\u000e�\u0019x��rt�jT~���gt�GL\u001e�H�7�A�f�́�U���f�_\u0003�>\u0002���<:h�L��ў����/�\u0017X��ǩ���lkf�\u0006j�?�\f8��P\u0011�,��'�oM������ޢ�\u0017�9\u0016�\u0011ܒeA\u0016�`h�ϳ�\u0007o\u0019�\bh�� �v����}Ϋ�i���!Y\u0013��͚N��'ηa���-S\u0005y�j^D%\u001c��\":F�j>��\u0013n�=\u001d�A3��>M��\t�4�+���z�\u00132�4�SU8Z��_PK\u0003\u0004\n\u0000\u0000\u0000\b\u0000�p�\\�w��m\u0000\u0000\u0000{\u0000\u0000\u0000\u001d\u0000\u0000\u0000word/_rels/footnotes.xml.relsM�A\u000e\u0002!\fE�B�w�.�1��n\u000e`�\u0000\rV \u000e�Pb<�,]�����~�n>�4\u0015qp�,\u0018\u0016_�I���};\\`]�\u001b�ԇ�1U5#\u0011u\u0010{�WD��3�T*� ��2�1[�J�M��d�\u0019��\u0007��\u0003PK\u0003\u0004\n\u0000\u0000\u0000\b\u0000�p�\\?J���\u0001\u0000\u0000�\u0006\u0000\u0000\u0011\u0000\u0000\u0000word/endnotes.xml͔�n� \u0010�_��>����ʊӋ\u001eV����\u0007�\u0018Ǩ� ����w|\bζU�67�1��o��1�o�j���y\t� �2%�0\u001cJiv\u0005���a��l�].Li \b����ygyA�\u0010lN����/��\u000e<Ta�AS�*�\u0005���t�f�0�\u000e��\u001e�̴̓\t����\n��\u00158�\u0002.ݎj�^\u001b�@�eA�H%�\u001e���\u0001\u0003\u0005i��'�\"\n�]�Q�4\u001c<�9qG�;��\u0016&\f\u0011�\u0013\n5��s\u001a_��a}����h�\"�\u0005��e=�s��a\u0006�#�\u001c��\u001a��&f�\u0019\u001d�\u0011��\u001c\t��<(�L�9�JsT����\u0000��\u0000���9�\u001c4v���h��5���\u0014kj�qj�21ۚY����;\u0003��(T�-K��I�[��\u0017'��h��e�\u0005p\u0004�dY�E6�������[�1\u0000\u001a�*\b��io�d���*.��>\"k\u0002\u0010�Y��>~��6�U\u001f�e� ���gQ\t��&[\u0011O��\b���\u0001\u001d\u0014���Q�\u001cL��\u0019\u001e��۴�����OT`���?PK\u0003\u0004\n\u0000\u0000\u0000\b\u0000�p�\\�w��m\u0000\u0000\u0000{\u0000\u0000\u0000\u001c\u0000\u0000\u0000word/_rels/endnotes.xml.relsM�A\u000e\u0002!\fE�B�w�.�1��n\u000e`�\u0000\rV \u000e�Pb<�,]�����~�n>�4\u0015qp�,\u0018\u0016_�I���};\\`]�\u001b�ԇ�1U5#\u0011u\u0010{�WD��3�T*� ��2�1[�J�M��d�\u0019��\u0007��\u0003PK\u0003\u0004\n\u0000\u0000\u0000\b\u0000�p�\\M��ʡ\u0001\u0000\u0000s\u0005\u0000\u0000\u0011\u0000\u0000\u0000word/settings.xml���n�0\f�_��}\"�X���[t+��b�E�\u0007`%�\u0016\"Q�$��ۏ��?@�4W�A�;G�����d�\nQ;�X��Y�P8�����??V_Y\u0016\u0013�\u0004�PUl�\"���\u001eʨR�C1#\u0000�r�bmJ��<�VY�k�Ep��i-�宮�P|pA��w;\u001f�P1\u0012�;`\u000f��q�=�y�\u0014�]���34�B�t~Et\u000fI?k�Ӗ��Ռq\u0015�\u0002�{��`hL)'C�e�\b��N)�NtVa�)�\fyp\u0018[�k|�F�v��\u001f]���\u001dZP|9�\u0007�\u0001\u0006Z\u0016�1��d���cb�\u001fё\u0011q�8��k�ى\u0005���J���i���\u0000ߜל��:���y�G�\u001cX�>��o�˫���<���\u0005ZQ>6�\u0002<\u001brD-˨���[�q�H\u001d���7\u0010��j�r��ǐ�\u0015ޡ�-�O\u0005��Y6�=���`�b�3ӔXvO�\u0000�O\u0016���\b��_\r�_N�1ԅ\u0013J>J�E�/���?PK\u0003\u0004\n\u0000\u0000\u0000\b\u0000�p�\\��9��\u0001\u0000\u0000�\b\u0000\u0000\u0011\u0000\u0000\u0000word/comments.xml���r� \u0018\u0006�[q8W�XS7Ӵ'���x�\u000b���4�\f�ѻ_R%I��N�G�$ߓ�����I4�#5�+Y�|��\u0005�X\u0011.�5x��܂�uH\u0012�(Ikp�\u0016<=>�\u0015VBP���\u0003�V�T\u0003朮 ��Q��Jpl�U;���B��qL!1��6,��\u000eb���'�\u001b�ld\u0003�m\f\u0015\tP��\"���l��]�\b�K�|�HڤI�Y\\�&\u0015�t�&�ci�&E���\u0011�4���N\u0019���i�P �y�K\u000fk��\u0007o�;{3+\u0003���LH�zA��l�\u001e\nEh�&AQ58\u0018Y]��|\u0017���_?����ȳn;�\u001c\u001a��.���k�י���, ǟ\u0016q\u0014M�������*C����o�(L��\u001d>_�\u001c�)�����g1�&�#\u001d�OL����!��o���jF��\u0013\u000f�\u0000\u0014\u0011Pb:��\u000f��j@<����\u0013�Fp���d䤅\u0019\u0001�8�f)E�\u0015v��!�,\u001b�t^�MϝŨ#��m#�\u0018uЃ�o�^�c���\u0016������ma�0�)��\u0001PK\u0003\u0004\n\u0000\u0000\u0000\b\u0000�p�\\�w��m\u0000\u0000\u0000{\u0000\u0000\u0000\u001c\u0000\u0000\u0000word/_rels/comments.xml.relsM�A\u000e\u0002!\fE�B�w�.�1��n\u000e`�\u0000\rV \u000e�Pb<�,]�����~�n>�4\u0015qp�,\u0018\u0016_�I���};\\`]�\u001b�ԇ�1U5#\u0011u\u0010{�WD��3�T*� ��2�1[�J�M��d�\u0019��\u0007��\u0003PK\u0003\u0004\n\u0000\u0000\u0000\b\u0000�p�\\c�^�\u001d\u0001\u0000\u0000C\u0003\u0000\u0000\u0012\u0000\u0000\u0000word/fontTable.xml���n� \u0014\u0007�W!�+���i��,Kv�=\u0000\u0002�D\u000e���Է\u001f��k��\u0015\u0010���|l�Wp��\u0004��+�Zf�\u0019�P[�����b�\u0019E�t�M�o��~���5�H,�=��*��ؖB�j\fHZbk|��1���\u0019�\u0002d8�ۅBhe�\u0007�l��<�\n�`�+\nֵU�\u001d�\u0019��}^\u0004㒈�\u001a�Ҡ]^�.\u0018t\u001bP\u0019��1��\u0007���Y�=A`U@�:.S3��z*�WY\u0003�\u0007��\u0001�\u0013P(s�gl\u001e�Hɩc�<�\u0018\u001d�'����\u0000��nf)�0W�ee���f*�yE�G�\u0006݌@��G�A\u001e\\���YZ\u001c�av�\\w��2��\u0002\u0017�_PK\u0003\u0004\n\u0000\u0000\u0000\b\u0000�p�\\�w��m\u0000\u0000\u0000{\u0000\u0000\u0000\u001d\u0000\u0000\u0000word/_rels/fontTable.xml.relsM�A\u000e\u0002!\fE�B�w�.�1��n\u000e`�\u0000\rV \u000e�Pb<�,]�����~�n>�4\u0015qp�,\u0018\u0016_�I���};\\`]�\u001b�ԇ�1U5#\u0011u\u0010{�WD��3�T*� ��2�1[�J�M��d�\u0019��\u0007��\u0003PK\u0001\u0002\u0014\u0000\n\u0000\u0000\u0000\u0000\u0000�p�\\\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0005\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0010\u0000\u0000\u0000\u0000\u0000\u0000\u0000word/PK\u0001\u0002\u0014\u0000\n\u0000\u0000\u0000\u0000\u0000�p�\\\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u000b\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0010\u0000\u0000\u0000#\u0000\u0000\u0000word/_rels/PK\u0001\u0002\u0014\u0000\n\u0000\u0000\u0000\b\u0000�p�\\ƚOe�\u0000\u0000\u0000!\u0004\u0000\u0000\u001c\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000L\u0000\u0000\u0000word/_rels/document.xml.relsPK\u0001\u0002\u0014\u0000\n\u0000\u0000\u0000\b\u0000�p�\\vf.�'\u000b\u0000\u0000eM\u0000\u0000\u0011\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000�\u0001\u0000\u0000word/document.xmlPK\u0001\u0002\u0014\u0000\n\u0000\u0000\u0000\b\u0000�p�\\��%��\u0002\u0000\u0000�\u0010\u0000\u0000\u000f\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000�\f\u0000\u0000word/styles.xmlPK\u0001\u0002\u0014\u0000\n\u0000\u0000\u0000\u0000\u0000�p�\\\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\t\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0010\u0000\u0000\u0000�\u000f\u0000\u0000docProps/PK\u0001\u0002\u0014\u0000\n\u0000\u0000\u0000\b\u0000�p�\\p�E\u0004<\u0001\u0000\u0000�\u0002\u0000\u0000\u0011\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\r\u0010\u0000\u0000docProps/core.xmlPK\u0001\u0002\u0014\u0000\n\u0000\u0000\u0000\b\u0000�p�\\\u001e)�Zp\u0002\u0000\u0000d\f\u0000\u0000\u0012\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000x\u0011\u0000\u0000word/numbering.xmlPK\u0001\u0002\u0014\u0000\n\u0000\u0000\u0000\u0000\u0000�p�\\\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0006\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0010\u0000\u0000\u0000\u0018\u0014\u0000\u0000_rels/PK\u0001\u0002\u0014\u0000\n\u0000\u0000\u0000\b\u0000�p�\\\u001f����\u0000\u0000\u0000�\u0002\u0000\u0000\u000b\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000<\u0014\u0000\u0000_rels/.relsPK\u0001\u0002\u0014\u0000\n\u0000\u0000\u0000\b\u0000�p�\\�����\u0001\u0000\u00008\b\u0000\u0000\u0013\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000K\u0015\u0000\u0000[Content_Types].xmlPK\u0001\u0002\u0014\u0000\n\u0000\u0000\u0000\b\u0000�p�\\Xy�\"�\u0000\u0000\u0000�\u0000\u0000\u0000\u0013\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0016\u0017\u0000\u0000docProps/custom.xmlPK\u0001\u0002\u0014\u0000\n\u0000\u0000\u0000\b\u0000�p�\\���ړ\u0000\u0000\u0000�\u0000\u0000\u0000\u0010\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000�\u0017\u0000\u0000docProps/app.xmlPK\u0001\u0002\u0014\u0000\n\u0000\u0000\u0000\b\u0000�p�\\��ɑ�\u0001\u0000\u0000�\u0006\u0000\u0000\u0012\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000�\u0018\u0000\u0000word/footnotes.xmlPK\u0001\u0002\u0014\u0000\n\u0000\u0000\u0000\b\u0000�p�\\�w��m\u0000\u0000\u0000{\u0000\u0000\u0000\u001d\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000�\u001a\u0000\u0000word/_rels/footnotes.xml.relsPK\u0001\u0002\u0014\u0000\n\u0000\u0000\u0000\b\u0000�p�\\?J���\u0001\u0000\u0000�\u0006\u0000\u0000\u0011\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000@\u001b\u0000\u0000word/endnotes.xmlPK\u0001\u0002\u0014\u0000\n\u0000\u0000\u0000\b\u0000�p�\\�w��m\u0000\u0000\u0000{\u0000\u0000\u0000\u001c\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00000\u001d\u0000\u0000word/_rels/endnotes.xml.relsPK\u0001\u0002\u0014\u0000\n\u0000\u0000\u0000\b\u0000�p�\\M��ʡ\u0001\u0000\u0000s\u0005\u0000\u0000\u0011\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000�\u001d\u0000\u0000word/settings.xmlPK\u0001\u0002\u0014\u0000\n\u0000\u0000\u0000\b\u0000�p�\\��9��\u0001\u0000\u0000�\b\u0000\u0000\u0011\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000�\u001f\u0000\u0000word/comments.xmlPK\u0001\u0002\u0014\u0000\n\u0000\u0000\u0000\b\u0000�p�\\�w��m\u0000\u0000\u0000{\u0000\u0000\u0000\u001c\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000�!\u0000\u0000word/_rels/comments.xml.relsPK\u0001\u0002\u0014\u0000\n\u0000\u0000\u0000\b\u0000�p�\\c�^�\u001d\u0001\u0000\u0000C\u0003\u0000\u0000\u0012\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000B\"\u0000\u0000word/fontTable.xmlPK\u0001\u0002\u0014\u0000\n\u0000\u0000\u0000\b\u0000�p�\\�w��m\u0000\u0000\u0000{\u0000\u0000\u0000\u001d\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000�#\u0000\u0000word/_rels/fontTable.xml.relsPK\u0005\u0006\u0000\u0000\u0000\u0000\u0016\u0000\u0016\u0000|\u0005\u0000\u00007$\u0000\u0000\u0000\u0000",
+      "createdAt": "2026-10-03T07:57:50.716Z",
+      "updatedAt": "2026-10-03T07:57:50.716Z"
+    },
+    {
+      "id": "res_1791014516037_91d73966",
+      "userId": "usr_candidate_demo",
+      "filename": "res_1791014516037_91d73966_David_Kim_ML_Resume.txt",
+      "originalName": "David_Kim_ML_Resume.txt",
+      "fileSize": 231,
+      "mimeType": "text/plain",
+      "rawText": "David Kim\nEmail: david.kim@example.com\nSan Jose, CA\n\nExperienced Machine Learning Engineer with 4 years building PyTorch models, computer vision systems, and FastAPI microservices. Proficient in Python, SQL, Docker, and PostgreSQL.",
+      "createdAt": "2026-10-03T08:01:56.038Z",
+      "updatedAt": "2026-10-03T08:01:56.041Z",
+      "profileId": "prof_1791014516039_2449b36d"
+    },
+    {
+      "id": "res_1791014548586_4c477603",
+      "userId": "usr_candidate_demo",
+      "filename": "res_1791014548586_4c477603_test_resume.pdf",
+      "originalName": "test_resume.pdf",
+      "fileSize": 631,
+      "mimeType": "application/pdf",
+      "rawText": "Elena Rostova - Full Stack Engineer - React Node Python\n\n-- 1 of 1 --",
+      "createdAt": "2026-10-03T08:02:28.586Z",
+      "updatedAt": "2026-10-03T08:02:28.588Z",
+      "profileId": "prof_1791014548587_ced38a9f"
+    },
+    {
+      "id": "res_1791014595407_e70281da",
+      "userId": "usr_candidate_demo",
+      "filename": "res_1791014595407_e70281da_test_resume.pdf",
+      "originalName": "test_resume.pdf",
+      "fileSize": 631,
+      "mimeType": "application/pdf",
+      "rawText": "Elena Rostova - Full Stack Engineer - React Node Python\n\n-- 1 of 1 --",
+      "createdAt": "2026-10-03T08:03:15.407Z",
+      "updatedAt": "2026-10-03T08:03:15.410Z",
+      "profileId": "prof_1791014595409_911f3ab9"
+    }
+  ],
+  "candidateProfiles": [
+    {
+      "id": "prof_demo_alex",
+      "userId": "usr_candidate_demo",
+      "resumeId": "res_demo_alex",
+      "name": "Alex Rivera",
+      "email": "alex.rivera@example.com",
+      "location": "San Francisco, CA",
+      "summary": "Software Engineer with 3 years building scalable React web applications, TypeScript microservices, and PostgreSQL database layers.",
+      "education": [
+        {
+          "institution": "University of California, Berkeley",
+          "degree": "B.S.",
+          "field": "Computer Science",
+          "graduationYear": "2021"
+        }
+      ],
+      "experience": [
+        {
+          "company": "Apex Cloud Systems",
+          "role": "Software Engineer",
+          "startDate": "2023",
+          "endDate": "Present",
+          "description": [
+            "Engineered modern React and TypeScript frontend workflows serving 150k monthly active users.",
+            "Built Node.js and Express RESTful services integrated with PostgreSQL databases, improving query latency by 35%.",
+            "Designed CI/CD workflows using GitHub Actions and containerized microservices with Docker.",
+            "Integrated Redis caching layer for session management and rate limiting."
+          ],
+          "skillsUsed": [
+            "React",
+            "TypeScript",
+            "Node.js",
+            "Express",
+            "PostgreSQL",
+            "Docker",
+            "Redis"
+          ]
+        },
+        {
+          "company": "Nexus Labs",
+          "role": "Junior Full-Stack Developer",
+          "startDate": "2021",
+          "endDate": "2023",
+          "description": [
+            "Developed responsive web interfaces using React, Tailwind CSS, and Next.js.",
+            "Implemented Python automation scripts and REST endpoints for data ingestion."
+          ],
+          "skillsUsed": [
+            "React",
+            "Tailwind CSS",
+            "Next.js",
+            "Python",
+            "REST API"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "name": "Distributed Task Queue",
+          "description": "High-throughput async job processor built with Node.js, Redis, and PostgreSQL with worker pool management.",
+          "technologies": [
+            "Node.js",
+            "TypeScript",
+            "Redis",
+            "PostgreSQL",
+            "Docker"
+          ],
+          "link": "https://github.com/alexrivera/task-queue"
+        }
+      ],
+      "skills": [
+        {
+          "name": "TypeScript",
+          "category": "Programming",
+          "level": "detected",
+          "evidence": "Built TypeScript microservices at Apex Cloud Systems"
+        },
+        {
+          "name": "JavaScript",
+          "category": "Programming",
+          "level": "detected",
+          "evidence": "Proficient in ESNext and modern JS frameworks"
+        },
+        {
+          "name": "React",
+          "category": "Frontend",
+          "level": "detected",
+          "evidence": "Engineered modern React frontend workflows serving 150k MAU"
+        },
+        {
+          "name": "Node.js",
+          "category": "Backend",
+          "level": "detected",
+          "evidence": "Built Node.js and Express RESTful services"
+        },
+        {
+          "name": "Express",
+          "category": "Backend",
+          "level": "detected",
+          "evidence": "Developed REST API endpoints using Express"
+        },
+        {
+          "name": "PostgreSQL",
+          "category": "Databases",
+          "level": "detected",
+          "evidence": "Integrated with PostgreSQL databases, improving query latency by 35%"
+        },
+        {
+          "name": "Docker",
+          "category": "DevOps",
+          "level": "detected",
+          "evidence": "Containerized microservices with Docker"
+        },
+        {
+          "name": "Redis",
+          "category": "Databases",
+          "level": "detected",
+          "evidence": "Integrated Redis caching layer for session management"
+        },
+        {
+          "name": "Tailwind CSS",
+          "category": "Frontend",
+          "level": "detected",
+          "evidence": "Styled responsive UI layouts with Tailwind CSS"
+        },
+        {
+          "name": "Python",
+          "category": "Programming",
+          "level": "detected",
+          "evidence": "Implemented Python automation scripts and data ingestion"
+        },
+        {
+          "name": "REST API",
+          "category": "Backend",
+          "level": "detected",
+          "evidence": "Designed clean RESTful services"
+        },
+        {
+          "name": "Git",
+          "category": "Tools",
+          "level": "detected",
+          "evidence": "Version control with Git & GitHub Actions"
+        },
+        {
+          "name": "AWS",
+          "category": "Cloud",
+          "level": "inferred",
+          "evidence": "Mentioned AWS (S3, EC2) in tools section"
+        },
+        {
+          "name": "Microservices",
+          "category": "Backend",
+          "level": "inferred",
+          "evidence": "Mentioned containerized microservices"
+        }
+      ],
+      "certifications": [
+        "AWS Certified Cloud Practitioner (In Progress)"
+      ],
+      "createdAt": "2026-10-03T07:44:14.533Z",
+      "updatedAt": "2026-10-03T07:44:14.533Z"
+    },
+    {
+      "id": "prof_1791014516039_2449b36d",
+      "userId": "usr_candidate_demo",
+      "resumeId": "res_1791014516037_91d73966",
+      "name": "David Kim",
+      "email": "david.kim@example.com",
+      "phone": "",
+      "summary": "Email: david.kim@example.com San Jose, CA Experienced Machine Learning Engineer with 4 years building PyTorch models, computer vision systems, and FastAPI microservices. Proficient in Python, SQL, Docker, and PostgreSQL.",
+      "education": [
+        {
+          "institution": "Accredited University",
+          "degree": "B.S.",
+          "field": "Computer Science or Related Technical Field",
+          "graduationYear": "2022"
+        }
+      ],
+      "experience": [
+        {
+          "company": "Software Engineering Experience",
+          "role": "Software Engineer",
+          "startDate": "2022",
+          "endDate": "Present",
+          "description": [
+            "Email: david.kim@example.com",
+            "Experienced Machine Learning Engineer with 4 years building PyTorch models, computer vision systems, and FastAPI microservices. Proficient in Python, SQL, Docker, and PostgreSQL."
+          ],
+          "skillsUsed": [
+            "Python",
+            "SQL",
+            "FastAPI",
+            "PostgreSQL",
+            "Docker",
+            "Machine Learning"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "name": "Technical Project Portfolio",
+          "description": "Engineered scalable system implementations and microservices.",
+          "technologies": [
+            "Python",
+            "SQL",
+            "FastAPI",
+            "PostgreSQL",
+            "Docker"
+          ]
+        }
+      ],
+      "skills": [
+        {
+          "name": "Python",
+          "category": "Programming",
+          "level": "detected",
+          "evidence": "Experienced Machine Learning Engineer with 4 years building PyTorch models, computer vision systems, and FastAPI microservices. Proficient in Python, "
+        },
+        {
+          "name": "SQL",
+          "category": "Databases",
+          "level": "detected",
+          "evidence": "Experienced Machine Learning Engineer with 4 years building PyTorch models, computer vision systems, and FastAPI microservices. Proficient in Python, "
+        },
+        {
+          "name": "FastAPI",
+          "category": "Backend",
+          "level": "detected",
+          "evidence": "Experienced Machine Learning Engineer with 4 years building PyTorch models, computer vision systems, and FastAPI microservices. Proficient in Python, "
+        },
+        {
+          "name": "PostgreSQL",
+          "category": "Databases",
+          "level": "detected",
+          "evidence": "Experienced Machine Learning Engineer with 4 years building PyTorch models, computer vision systems, and FastAPI microservices. Proficient in Python, "
+        },
+        {
+          "name": "Docker",
+          "category": "DevOps",
+          "level": "detected",
+          "evidence": "Experienced Machine Learning Engineer with 4 years building PyTorch models, computer vision systems, and FastAPI microservices. Proficient in Python, "
+        },
+        {
+          "name": "Machine Learning",
+          "category": "AI/ML",
+          "level": "detected",
+          "evidence": "Experienced Machine Learning Engineer with 4 years building PyTorch models, computer vision systems, and FastAPI microservices. Proficient in Python, "
+        },
+        {
+          "name": "PyTorch",
+          "category": "AI/ML",
+          "level": "detected",
+          "evidence": "Experienced Machine Learning Engineer with 4 years building PyTorch models, computer vision systems, and FastAPI microservices. Proficient in Python, "
+        }
+      ],
+      "certifications": [],
+      "createdAt": "2026-10-03T08:01:56.039Z",
+      "updatedAt": "2026-10-03T08:01:56.039Z"
+    },
+    {
+      "id": "prof_1791014548587_ced38a9f",
+      "userId": "usr_candidate_demo",
+      "resumeId": "res_1791014548586_4c477603",
+      "name": "-- 1 of 1 --",
+      "email": "candidate@careerforge.ai",
+      "phone": "",
+      "summary": "-- 1 of 1 --",
+      "education": [
+        {
+          "institution": "Accredited University",
+          "degree": "B.S.",
+          "field": "Computer Science or Related Technical Field",
+          "graduationYear": "2022"
+        }
+      ],
+      "experience": [
+        {
+          "company": "Software Engineering Experience",
+          "role": "Software Engineer",
+          "startDate": "2022",
+          "endDate": "Present",
+          "description": [
+            "Elena Rostova - Full Stack Engineer - React Node Python"
+          ],
+          "skillsUsed": [
+            "Python",
+            "React",
+            "Node.js"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "name": "Technical Project Portfolio",
+          "description": "Engineered scalable system implementations and microservices.",
+          "technologies": [
+            "Python",
+            "React",
+            "Node.js"
+          ]
+        }
+      ],
+      "skills": [
+        {
+          "name": "Python",
+          "category": "Programming",
+          "level": "detected",
+          "evidence": "Elena Rostova - Full Stack Engineer - React Node Python"
+        },
+        {
+          "name": "React",
+          "category": "Frontend",
+          "level": "detected",
+          "evidence": "Elena Rostova - Full Stack Engineer - React Node Python"
+        },
+        {
+          "name": "Node.js",
+          "category": "Backend",
+          "level": "detected",
+          "evidence": "Elena Rostova - Full Stack Engineer - React Node Python"
+        }
+      ],
+      "certifications": [],
+      "createdAt": "2026-10-03T08:02:28.587Z",
+      "updatedAt": "2026-10-03T08:02:28.587Z"
+    },
+    {
+      "id": "prof_1791014595409_911f3ab9",
+      "userId": "usr_candidate_demo",
+      "resumeId": "res_1791014595407_e70281da",
+      "name": "Elena Rostova",
+      "email": "candidate@careerforge.ai",
+      "phone": "",
+      "location": "",
+      "summary": "Full Stack Engineer with experience in React, Node, and Python development.",
+      "education": [],
+      "experience": [],
+      "projects": [],
+      "skills": [
+        {
+          "name": "React",
+          "category": "Frontend",
+          "level": "detected",
+          "evidence": "React"
+        },
+        {
+          "name": "Node.js",
+          "category": "Backend",
+          "level": "detected",
+          "evidence": "Node"
+        },
+        {
+          "name": "Python",
+          "category": "Programming",
+          "level": "detected",
+          "evidence": "Python"
+        },
+        {
+          "name": "Full Stack Development",
+          "category": "Web",
+          "level": "detected",
+          "evidence": "Full Stack Engineer"
+        }
+      ],
+      "certifications": [],
+      "createdAt": "2026-10-03T08:03:15.409Z",
+      "updatedAt": "2026-10-03T08:03:15.409Z"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "job_demo_senior_fullstack",
+      "userId": "usr_candidate_demo",
+      "title": "Senior Full-Stack Engineer (Platform & APIs)",
+      "company": "Stripe",
+      "location": "San Francisco, CA / Remote",
+      "rawText": "Senior Full-Stack Engineer (Platform & APIs) - Stripe\n\nAbout the Role:\nWe are seeking an experienced Senior Full-Stack Engineer to architect our next-generation developer platform and developer-facing APIs. You will work across the stack, crafting intuitive user experiences in React/TypeScript, developing robust microservices in Node.js/Go, and orchestrating distributed datastores.\n\nResponsibilities:\n- Design, scale, and maintain high-reliability RESTful and GraphQL APIs handling millions of requests daily.\n- Build modern, high-performance web applications using React, TypeScript, and modern CSS architecture.\n- Architect scalable relational database schemas in PostgreSQL with index optimization and query tuning.\n- Lead architectural reviews for microservice decomposition, message queueing (Kafka / RabbitMQ), and containerization (Docker, Kubernetes).\n- Mentor junior engineers and champion code quality, automated testing (Jest, Cypress), and continuous delivery.\n\nQualifications:\n- 4+ years of professional full-stack web software development experience.\n- Strong expertise in TypeScript, React, and Node.js.\n- Deep understanding of SQL databases, relational schema design, transactions, and PostgreSQL performance.\n- Solid experience with Docker, Kubernetes, and cloud infrastructure (AWS or GCP).\n- Familiarity with distributed message brokers like Apache Kafka or RabbitMQ.\n- Excellent problem-solving, debugging, and cross-functional communication skills.",
+      "createdAt": "2026-10-03T07:44:14.533Z",
+      "updatedAt": "2026-10-03T07:44:14.533Z",
+      "profileId": "jobprof_demo_stripe"
+    }
+  ],
+  "jobProfiles": [
+    {
+      "id": "jobprof_demo_stripe",
+      "userId": "usr_candidate_demo",
+      "jobId": "job_demo_senior_fullstack",
+      "title": "Senior Full-Stack Engineer (Platform & APIs)",
+      "company": "Stripe",
+      "seniority": "Senior",
+      "location": "San Francisco, CA / Remote",
+      "requiredSkills": [
+        {
+          "name": "TypeScript",
+          "category": "Programming",
+          "importance": "critical"
+        },
+        {
+          "name": "React",
+          "category": "Frontend",
+          "importance": "critical"
+        },
+        {
+          "name": "Node.js",
+          "category": "Backend",
+          "importance": "critical"
+        },
+        {
+          "name": "PostgreSQL",
+          "category": "Databases",
+          "importance": "critical"
+        },
+        {
+          "name": "REST API",
+          "category": "Backend",
+          "importance": "critical"
+        },
+        {
+          "name": "Docker",
+          "category": "DevOps",
+          "importance": "high"
+        },
+        {
+          "name": "Kubernetes",
+          "category": "DevOps",
+          "importance": "high"
+        },
+        {
+          "name": "GraphQL",
+          "category": "Web",
+          "importance": "high"
+        },
+        {
+          "name": "Kafka",
+          "category": "Backend",
+          "importance": "high"
+        }
+      ],
+      "preferredSkills": [
+        {
+          "name": "AWS",
+          "category": "Cloud",
+          "importance": "medium"
+        },
+        {
+          "name": "RabbitMQ",
+          "category": "Backend",
+          "importance": "medium"
+        },
+        {
+          "name": "Redis",
+          "category": "Databases",
+          "importance": "medium"
+        },
+        {
+          "name": "Testing / Jest",
+          "category": "Tools",
+          "importance": "medium"
+        }
+      ],
+      "responsibilities": [
+        "Design, scale, and maintain high-reliability RESTful and GraphQL APIs handling millions of requests daily.",
+        "Build modern, high-performance web applications using React, TypeScript, and modern CSS architecture.",
+        "Architect scalable relational database schemas in PostgreSQL with index optimization and query tuning.",
+        "Lead architectural reviews for microservice decomposition, message queueing (Kafka), and Kubernetes orchestration."
+      ],
+      "qualifications": [
+        "4+ years professional full-stack development experience.",
+        "Strong expertise in TypeScript, React, Node.js, and PostgreSQL.",
+        "Hands-on experience with Docker, Kubernetes, and distributed streaming (Kafka)."
+      ],
+      "educationRequirements": "B.S. in Computer Science or equivalent practical experience",
+      "experienceRequirements": "4+ years",
+      "domainKnowledge": [
+        "FinTech",
+        "High-throughput APIs",
+        "Payment Infrastructure",
+        "Distributed Systems"
+      ],
+      "createdAt": "2026-10-03T07:44:14.533Z"
+    }
+  ],
+  "matches": [
+    {
+      "id": "match_demo_alex_stripe",
+      "userId": "usr_candidate_demo",
+      "resumeId": "res_demo_alex",
+      "jobId": "job_demo_senior_fullstack",
+      "overallScore": 78,
+      "technicalScore": 82,
+      "projectScore": 76,
+      "experienceScore": 72,
+      "educationScore": 90,
+      "semanticScore": 84,
+      "preferredSkillCoverage": 75,
+      "strengths": [
+        "Strong demonstrated proficiency in TypeScript, React, and Node.js matching core role stack.",
+        "Verified hands-on experience with PostgreSQL database optimization and query latency reduction.",
+        "Solid production exposure to Docker containerization and Redis caching."
+      ],
+      "weaknesses": [
+        "Kubernetes orchestration is required for the Senior role but not demonstrated on the resume.",
+        "GraphQL API design is explicitly required for Stripe developer platform APIs but absent from candidate profile.",
+        "Distributed message brokers like Apache Kafka are not evidenced in current experience."
+      ],
+      "skillGaps": [
+        {
+          "skillName": "TypeScript",
+          "category": "Programming",
+          "status": "STRONG",
+          "priority": "CRITICAL",
+          "whyMatters": "Primary language for Stripe frontend web apps and backend Node microservices.",
+          "evidence": "Built TypeScript microservices and React workflows at Apex Cloud Systems.",
+          "jobRequirement": "Expertise in TypeScript across frontend and backend.",
+          "gapExplanation": "Candidate has strong production track record with TypeScript.",
+          "learningAction": "Continue reviewing advanced generics and AST tooling.",
+          "interviewQuestions": [
+            "How do you design type-safe API client contracts using TypeScript generics and utility types?",
+            "Explain the difference between type aliases and interfaces with regards to declaration merging."
+          ]
+        },
+        {
+          "skillName": "PostgreSQL",
+          "category": "Databases",
+          "status": "STRONG",
+          "priority": "CRITICAL",
+          "whyMatters": "Core transactional datastore supporting high-volume payment ledgers.",
+          "evidence": "Built PostgreSQL services and improved query latency by 35% via indexing.",
+          "jobRequirement": "Deep understanding of SQL, schema design, transactions, and index tuning.",
+          "gapExplanation": "Demonstrated experience with query tuning and relational schemas.",
+          "learningAction": "Practice isolation levels (Serializable vs Read Committed) and MVCC internals.",
+          "interviewQuestions": [
+            "How does PostgreSQL MVCC handle concurrent read and write transactions without locking?",
+            "What strategies would you use to diagnose and fix a slow query using EXPLAIN ANALYZE?"
+          ]
+        },
+        {
+          "skillName": "React",
+          "category": "Frontend",
+          "status": "STRONG",
+          "priority": "CRITICAL",
+          "whyMatters": "Primary library for customer-facing dashboards and developer consoles.",
+          "evidence": "Engineered React frontend workflows serving 150k monthly active users.",
+          "jobRequirement": "Modern, high-performance UI engineering in React.",
+          "gapExplanation": "Solid experience with modern React architecture.",
+          "learningAction": "Review React 19 server actions and concurrency primitives.",
+          "interviewQuestions": [
+            "How do you prevent unnecessary re-renders in deeply nested React tree structures?",
+            "Explain state management trade-offs between Context API and dedicated atom/store solutions."
+          ]
+        },
+        {
+          "skillName": "Docker",
+          "category": "DevOps",
+          "status": "STRONG",
+          "priority": "HIGH",
+          "whyMatters": "Baseline containerization for all deployed microservices.",
+          "evidence": "Containerized microservices with Docker at Apex Cloud Systems.",
+          "jobRequirement": "Containerization and cloud deployment workflows.",
+          "gapExplanation": "Demonstrated container packaging skills.",
+          "learningAction": "Learn multi-stage builds and security vulnerability scanning.",
+          "interviewQuestions": [
+            "How do you optimize Docker image build cache and reduce container attack surface?"
+          ]
+        },
+        {
+          "skillName": "REST API",
+          "category": "Backend",
+          "status": "STRONG",
+          "priority": "CRITICAL",
+          "whyMatters": "Foundation of developer-facing payment APIs.",
+          "evidence": "Built Node.js and Express RESTful services integrated with PostgreSQL.",
+          "jobRequirement": "High-reliability RESTful API design with strict contract versioning.",
+          "gapExplanation": "Demonstrated API architecture experience.",
+          "learningAction": "Master idempotency keys and rate-limiting token bucket implementations.",
+          "interviewQuestions": [
+            "How do you implement idempotency keys for financial transactions in a REST API?",
+            "Describe how to handle breaking changes in public REST API versions."
+          ]
+        },
+        {
+          "skillName": "GraphQL",
+          "category": "Web",
+          "status": "NOT DEMONSTRATED",
+          "priority": "HIGH",
+          "whyMatters": "Explicitly required for Stripe developer-facing data graphs.",
+          "evidence": "Not demonstrated in the submitted resume.",
+          "jobRequirement": "Design and maintain developer-facing GraphQL APIs.",
+          "gapExplanation": "The submitted resume contains strong REST experience but lacks documented GraphQL schema design.",
+          "learningAction": "Build a sample GraphQL server using Apollo Server or Yoga with DataLoader for N+1 prevention.",
+          "interviewQuestions": [
+            "How do you solve the N+1 problem in GraphQL resolvers using DataLoader?",
+            "When would you recommend GraphQL over REST for developer APIs, and vice versa?"
+          ]
+        },
+        {
+          "skillName": "Kubernetes",
+          "category": "DevOps",
+          "status": "NOT DEMONSTRATED",
+          "priority": "HIGH",
+          "whyMatters": "Stripe clusters run on Kubernetes for orchestration and autoscaling.",
+          "evidence": "Not demonstrated in the submitted resume.",
+          "jobRequirement": "Experience with Kubernetes orchestration in production.",
+          "gapExplanation": "Docker containerization is demonstrated, but K8s deployments/services/ingress are not shown.",
+          "learningAction": "Study K8s primitives: Pods, Deployments, Services, ConfigMaps, and Helm charts.",
+          "interviewQuestions": [
+            "Explain how a Kubernetes Ingress controller routes traffic to backend pods.",
+            "What is the difference between liveness probes and readiness probes in Kubernetes?"
+          ]
+        },
+        {
+          "skillName": "Kafka",
+          "category": "Backend",
+          "status": "NOT DEMONSTRATED",
+          "priority": "HIGH",
+          "whyMatters": "Event streaming backbone for distributed transactions and ledger sync.",
+          "evidence": "Not demonstrated in the submitted resume.",
+          "jobRequirement": "Familiarity with distributed message brokers like Apache Kafka.",
+          "gapExplanation": "Redis caching is present, but distributed log streaming with Kafka is not demonstrated.",
+          "learningAction": "Study Kafka topic partitioning, consumer group rebalancing, and exactly-once semantics.",
+          "interviewQuestions": [
+            "How does Apache Kafka guarantee message ordering within a partition during consumer failures?",
+            "Compare Kafka with a traditional message queue like RabbitMQ."
+          ]
+        }
+      ],
+      "atsAnalysis": {
+        "keywordDensityScore": 84,
+        "readabilityScore": 92,
+        "completenessScore": 88,
+        "feedback": [
+          "Strong match on core technical keywords: TypeScript, React, Node.js, PostgreSQL.",
+          "Consider explicitly detailing GraphQL and Kubernetes experience if you have worked with them.",
+          "Quantified impact in current role (35% query latency reduction) significantly strengthens ATS ranking."
+        ]
+      },
+      "createdAt": "2026-10-03T07:44:14.533Z"
+    }
+  ],
+  "interviews": [
+    {
+      "id": "inv_demo_mock_1",
+      "userId": "usr_candidate_demo",
+      "resumeId": "res_demo_alex",
+      "jobId": "job_demo_senior_fullstack",
+      "matchId": "match_demo_alex_stripe",
+      "mode": "Technical Interview",
+      "difficulty": "Intermediate",
+      "totalQuestions": 5,
+      "status": "completed",
+      "currentQuestionIndex": 5,
+      "questions": [
+        {
+          "id": "q1",
+          "questionNumber": 1,
+          "category": "Databases",
+          "topic": "PostgreSQL Performance & Indexing",
+          "difficulty": "Intermediate",
+          "questionText": "In your resume, you mentioned improving PostgreSQL query latency by 35%. How did you identify the bottlenecks, what specific index types or query rewrites did you use, and how did you verify the improvement?",
+          "targetedSkill": "PostgreSQL",
+          "isGapTargeted": false,
+          "expectedKeyPoints": [
+            "EXPLAIN ANALYZE",
+            "B-Tree vs GIN/GiST indices",
+            "Connection pooling",
+            "Execution plan evaluation"
+          ]
+        },
+        {
+          "id": "q2",
+          "questionNumber": 2,
+          "category": "Backend",
+          "topic": "REST API Idempotency in Payment Systems",
+          "difficulty": "Intermediate",
+          "questionText": "Stripe relies heavily on idempotency keys to ensure financial transactions aren't duplicated on network timeouts. How would you design an idempotency layer in Node.js and Redis?",
+          "targetedSkill": "REST API",
+          "isGapTargeted": false,
+          "expectedKeyPoints": [
+            "Unique idempotency-key header",
+            "Atomic Redis SETNX or transactions",
+            "Storing response payloads",
+            "Handling concurrent in-flight requests"
+          ]
+        },
+        {
+          "id": "q3",
+          "questionNumber": 3,
+          "category": "Web",
+          "topic": "GraphQL Schema Design & The N+1 Problem",
+          "difficulty": "Intermediate",
+          "questionText": "The target role requires designing developer-facing APIs with GraphQL, which was not demonstrated on your resume. How does GraphQL work, and how do you resolve the infamous N+1 problem in resolvers?",
+          "targetedSkill": "GraphQL",
+          "isGapTargeted": true,
+          "expectedKeyPoints": [
+            "Single endpoint with flexible queries",
+            "Resolver execution lifecycle",
+            "DataLoader batching and caching",
+            "Query depth limiting"
+          ]
+        },
+        {
+          "id": "q4",
+          "questionNumber": 4,
+          "category": "DevOps",
+          "topic": "Kubernetes Container Orchestration",
+          "difficulty": "Intermediate",
+          "questionText": "You have solid Docker experience on your resume, but Kubernetes is required for this role. Can you explain the difference between a Pod, a Deployment, and a Service in a Kubernetes cluster?",
+          "targetedSkill": "Kubernetes",
+          "isGapTargeted": true,
+          "expectedKeyPoints": [
+            "Pod as smallest schedulable unit",
+            "Deployment manages replica sets and rolling updates",
+            "Service provides stable networking & load balancing"
+          ]
+        },
+        {
+          "id": "q5",
+          "questionNumber": 5,
+          "category": "Backend",
+          "topic": "Event Streaming & Kafka Architecture",
+          "difficulty": "Advanced",
+          "questionText": "Why would a platform like Stripe use Apache Kafka instead of standard HTTP webhooks or relational database queues for transaction event distribution?",
+          "targetedSkill": "Kafka",
+          "isGapTargeted": true,
+          "expectedKeyPoints": [
+            "High throughput and persistence on disk",
+            "Consumer group parallelism",
+            "Decoupled replayability",
+            "Strict partition ordering"
+          ]
+        }
+      ],
+      "answers": {
+        "q1": "We had an endpoint taking over 450ms. I ran EXPLAIN ANALYZE on PostgreSQL and found a sequential scan on the transactions table filtering by merchant_id and created_at. I added a composite B-Tree index on (merchant_id, created_at DESC) which dropped execution time to 18ms. We also tuned work_mem and introduced pgBouncer for connection pooling.",
+        "q2": "Clients pass an Idempotency-Key header with a UUID. When the request hits the Express middleware, we do a Redis SET key lock NX with a 120s TTL. If it returns false, another request is in flight so we wait or return 409. Once the transaction commits in Postgres, we cache the response code and body in Redis with a 24-hour expiration so repeated calls return the cached response immediately.",
+        "q3": "GraphQL allows the frontend to request exact fields instead of fixed endpoints. The N+1 problem happens when fetching a list of N items and then executing a separate query for each related child. We solve it using DataLoader, which batches all child IDs within a single event loop tick into a single SQL WHERE id IN (...) query and memoizes the results.",
+        "q4": "A Pod is the atomic unit running one or more containers sharing network and storage. A Deployment manages Pod lifecycle, handling declarative replica counts, rolling updates, and self-healing. A Service provides a consistent virtual IP and DNS name that load balances traffic across active Pods matched by label selectors.",
+        "q5": "Relational tables degrade under massive queue write/read contention due to row locks. Kafka provides an append-only distributed commit log with zero-copy I/O. It guarantees ordering within a partition, allows multiple independent consumer services to read at their own pace, and supports replay in case an downstream microservice needs recovery."
+      },
+      "evaluations": {
+        "q1": {
+          "questionId": "q1",
+          "answerText": "We had an endpoint taking over 450ms...",
+          "technicalAccuracy": 9,
+          "completeness": 9,
+          "problemSolving": 9,
+          "roleRelevance": 9,
+          "communication": 9,
+          "weightedScore": 90,
+          "strengths": [
+            "Accurate identification using EXPLAIN ANALYZE",
+            "Proper composite B-Tree index design with column ordering",
+            "Mentioned connection pooling and pgBouncer"
+          ],
+          "missingConcepts": [
+            "Table vacuuming or index bloat considerations"
+          ],
+          "technicalCorrection": "None needed; solution is textbook PostgreSQL optimization.",
+          "improvementAdvice": "Mentioning index size vs memory footprint makes the answer even stronger.",
+          "betterAnswerStructure": "1. Problem diagnosis (EXPLAIN ANALYZE) -> 2. Root cause (seq scan) -> 3. Solution (composite index) -> 4. Verification & metric delta (450ms to 18ms).",
+          "evaluatedAt": "2026-10-03T07:44:14.533Z"
+        },
+        "q2": {
+          "questionId": "q2",
+          "answerText": "Clients pass an Idempotency-Key header...",
+          "technicalAccuracy": 9,
+          "completeness": 8,
+          "problemSolving": 9,
+          "roleRelevance": 9,
+          "communication": 8,
+          "weightedScore": 87,
+          "strengths": [
+            "Correct usage of Redis SETNX with TTL",
+            "Distinguished in-flight concurrency from completed execution",
+            "Cached both status code and response payload"
+          ],
+          "missingConcepts": [
+            "Database-level idempotency record check as fallback if Redis restarts"
+          ],
+          "technicalCorrection": "Ensure the Redis key lock releases or clears if an unhandled internal exception occurs before completion.",
+          "improvementAdvice": "Mention how you handle payload mismatch (same key, different request body).",
+          "betterAnswerStructure": "1. Key extraction -> 2. In-flight locking -> 3. Payload checksum verification -> 4. Cached replay.",
+          "evaluatedAt": "2026-10-03T07:44:14.533Z"
+        },
+        "q3": {
+          "questionId": "q3",
+          "answerText": "GraphQL allows the frontend to request exact fields...",
+          "technicalAccuracy": 8,
+          "completeness": 8,
+          "problemSolving": 8,
+          "roleRelevance": 8,
+          "communication": 9,
+          "weightedScore": 82,
+          "strengths": [
+            "Clear definition of GraphQL value proposition",
+            "Accurately articulated DataLoader event-loop batching mechanism",
+            "Solid communication clarity"
+          ],
+          "missingConcepts": [
+            "Query complexity cost analysis and depth limiting for DDoS defense"
+          ],
+          "technicalCorrection": "Accurate explanation of DataLoader.",
+          "improvementAdvice": "Contrast REST caching at HTTP gateway vs GraphQL field-level caching.",
+          "betterAnswerStructure": "1. Concept definition -> 2. N+1 mechanics -> 3. DataLoader batching solution -> 4. Production guardrails.",
+          "evaluatedAt": "2026-10-03T07:44:14.533Z"
+        },
+        "q4": {
+          "questionId": "q4",
+          "answerText": "A Pod is the atomic unit running one or more containers...",
+          "technicalAccuracy": 8,
+          "completeness": 7,
+          "problemSolving": 7,
+          "roleRelevance": 8,
+          "communication": 8,
+          "weightedScore": 76,
+          "strengths": [
+            "Correct definitions of Pod, Deployment, and Service",
+            "Accurately noted label selector mechanism in Services"
+          ],
+          "missingConcepts": [
+            "Ingress controller role in routing external traffic",
+            "Readiness vs Liveness probes"
+          ],
+          "technicalCorrection": "Good conceptual foundation.",
+          "improvementAdvice": "Connect Kubernetes deployments to zero-downtime rolling updates in production.",
+          "betterAnswerStructure": "1. Pod (compute) -> 2. Deployment (orchestration) -> 3. Service (networking) -> 4. Ingress (routing).",
+          "evaluatedAt": "2026-10-03T07:44:14.533Z"
+        },
+        "q5": {
+          "questionId": "q5",
+          "answerText": "Relational tables degrade under massive queue write/read contention...",
+          "technicalAccuracy": 8,
+          "completeness": 8,
+          "problemSolving": 8,
+          "roleRelevance": 8,
+          "communication": 8,
+          "weightedScore": 80,
+          "strengths": [
+            "Recognized relational DB locking bottlenecks under high write volume",
+            "Understood partition ordering and consumer group independence",
+            "Mentioned replayability benefits"
+          ],
+          "missingConcepts": [
+            "Exactly-once semantics vs at-least-once delivery",
+            "Kafka broker cluster architecture"
+          ],
+          "technicalCorrection": "Solid understanding of log-centric messaging.",
+          "improvementAdvice": "Describe how partition keys ensure consistent ordering for specific account IDs.",
+          "betterAnswerStructure": "1. Why RDBMS queues fail -> 2. Kafka distributed commit log architecture -> 3. Partitioning and consumer offsets -> 4. Reliability guarantees.",
+          "evaluatedAt": "2026-10-03T07:44:14.533Z"
+        }
+      },
+      "createdAt": "2026-10-02T07:44:14.533Z",
+      "completedAt": "2026-10-02T08:14:14.533Z",
+      "reportId": "rep_demo_alex_1"
+    }
+  ],
+  "reports": [
+    {
+      "id": "rep_demo_alex_1",
+      "interviewId": "inv_demo_mock_1",
+      "userId": "usr_candidate_demo",
+      "overallScore": 83,
+      "technicalAccuracyScore": 84,
+      "problemSolvingScore": 82,
+      "completenessScore": 80,
+      "roleRelevanceScore": 84,
+      "communicationScore": 84,
+      "strongAreas": [
+        "PostgreSQL Query Optimization & Indexing (Score: 90/100)",
+        "Idempotency & Distributed Cache Design with Redis (Score: 87/100)",
+        "GraphQL Fundamentals & DataLoader Batching (Score: 82/100)"
+      ],
+      "weakAreas": [
+        "Kubernetes Ingress & Probe Configuration (Score: 76/100)",
+        "Kafka Partition Keys & Exactly-Once Semantics (Score: 80/100)"
+      ],
+      "criticalGapsDiscovered": [
+        "Kubernetes production deployment architecture needs deeper hands-on practice.",
+        "GraphQL depth limiting and schema cost analysis should be studied for senior-level defense."
+      ],
+      "nextSteps": [
+        "Practice Kubernetes pod networking and ingress configuration in minikube/kind.",
+        "Implement an Apollo Server with DataLoader and depth-limit middleware.",
+        "Run a follow-up Skill-Gap Mock Interview focusing specifically on Kubernetes & Kafka."
+      ],
+      "createdAt": "2026-10-02T08:14:14.533Z"
+    }
+  ],
+  "roadmaps": [
+    {
+      "id": "road_demo_alex_stripe",
+      "userId": "usr_candidate_demo",
+      "jobId": "job_demo_senior_fullstack",
+      "matchId": "match_demo_alex_stripe",
+      "interviewId": "inv_demo_mock_1",
+      "title": "Targeted Preparation Roadmap for Senior Platform Engineer (Stripe)",
+      "estimatedWeeks": 4,
+      "priorities": [
+        {
+          "skill": "Kubernetes",
+          "priority": "CRITICAL",
+          "whyMatters": "Required for container orchestration and deploying microservices on Stripe platform infrastructure.",
+          "currentStatus": "Not demonstrated in submitted resume; foundational knowledge shown in mock interview (76/100).",
+          "targetMilestone": "Deploy a multi-tier service with Ingress, ConfigMaps, and Rolling Update strategies.",
+          "learningResources": [
+            {
+              "title": "Kubernetes Official Documentation - Core Concepts",
+              "type": "Documentation",
+              "url": "https://kubernetes.io/docs/concepts/"
+            },
+            {
+              "title": "Kubernetes Up & Running - Ingress & Service Networking",
+              "type": "Book/Guide"
+            }
+          ],
+          "practiceTask": "Set up local Minikube cluster. Deploy a Node.js API with 3 replicas, readiness probe, and an Ingress route.",
+          "interviewPracticeQuestion": "How would you architect a zero-downtime rolling deployment in Kubernetes when database schema migrations are involved?"
+        },
+        {
+          "skill": "GraphQL",
+          "priority": "HIGH",
+          "whyMatters": "Essential for developer-facing unified API gateways and custom query payloads.",
+          "currentStatus": "Not demonstrated in resume; answered DataLoader question well in mock interview (82/100).",
+          "targetMilestone": "Build production GraphQL gateway with schema validation, DataLoader, and query depth limiting.",
+          "learningResources": [
+            {
+              "title": "Apollo Server Best Practices & N+1 Prevention",
+              "type": "Documentation",
+              "url": "https://www.apollographql.com/docs/"
+            },
+            {
+              "title": "GraphQL Security: Depth Limiting & Cost Analysis",
+              "type": "Article"
+            }
+          ],
+          "practiceTask": "Build a GraphQL service for payments with nested transactions and a DataLoader caching layer.",
+          "interviewPracticeQuestion": "How do you handle authentication, authorization, and rate limiting in a GraphQL API compared to REST?"
+        },
+        {
+          "skill": "Kafka",
+          "priority": "HIGH",
+          "whyMatters": "Core backbone for distributed event streams, billing ledger updates, and async workers.",
+          "currentStatus": "Demonstrated conceptual understanding in mock interview (80/100); needs architectural depth.",
+          "targetMilestone": "Implement producer/consumer with consumer group failover and idempotent writes.",
+          "learningResources": [
+            {
+              "title": "Confluent Kafka Fundamentals",
+              "type": "Video Course"
+            },
+            {
+              "title": "Designing Data-Intensive Applications - Chapter 11 (Stream Processing)",
+              "type": "Book"
+            }
+          ],
+          "practiceTask": "Run local Kafka broker in Docker. Produce payment events with partition key by account_id and consume in two separate worker groups.",
+          "interviewPracticeQuestion": "What happens when a Kafka consumer crashes in the middle of processing a batch? How do you ensure exactly-once processing?"
+        }
+      ],
+      "milestones": [
+        {
+          "week": 1,
+          "title": "Kubernetes Primitives & Hands-On Cluster Deployment",
+          "skillsCovered": [
+            "Kubernetes",
+            "Docker",
+            "DevOps"
+          ],
+          "deliverable": "Working Minikube deployment of Express API with HPA (Horizontal Pod Autoscaler) and Ingress."
+        },
+        {
+          "week": 2,
+          "title": "Advanced GraphQL API & Security Hardening",
+          "skillsCovered": [
+            "GraphQL",
+            "TypeScript",
+            "Node.js"
+          ],
+          "deliverable": "Secured GraphQL API with DataLoader, custom scalar types, and graphql-depth-limit middleware."
+        },
+        {
+          "week": 3,
+          "title": "Distributed Event Streaming with Kafka",
+          "skillsCovered": [
+            "Kafka",
+            "Redis",
+            "Microservices"
+          ],
+          "deliverable": "Async event pipeline with transactional outbox pattern and idempotent consumers."
+        },
+        {
+          "week": 4,
+          "title": "Full System Architecture Mock Re-Interview",
+          "skillsCovered": [
+            "System Design",
+            "PostgreSQL",
+            "Kubernetes",
+            "Kafka",
+            "GraphQL"
+          ],
+          "deliverable": "Score 88+ on CareerForge AI Senior Mock Re-Interview."
+        }
+      ],
+      "createdAt": "2026-10-03T07:44:14.533Z"
+    }
+  ],
+  "progressSnapshots": [
+    {
+      "id": "prog_demo_init",
+      "userId": "usr_candidate_demo",
+      "jobId": "job_demo_senior_fullstack",
+      "interviewId": "inv_demo_mock_1",
+      "overallScore": 78,
+      "technicalScore": 80,
+      "compatibilityScore": 78,
+      "strongSkillsCount": 5,
+      "gapSkillsCount": 3,
+      "topStrength": "TypeScript & PostgreSQL",
+      "topGap": "Kubernetes & GraphQL",
+      "timestamp": "2026-10-01T07:44:14.533Z"
+    }
+  ],
+  "adminLogs": []
+}

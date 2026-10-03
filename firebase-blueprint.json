@@ -1,0 +1,114 @@
+{
+  "entities": {
+    "User": {
+      "title": "User",
+      "description": "Registered CareerForge AI account",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "email": { "type": "string", "format": "email" },
+        "name": { "type": "string" },
+        "role": { "type": "string", "enum": ["user", "admin"] },
+        "createdAt": { "type": "string", "format": "date-time" },
+        "updatedAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["id", "email", "name", "role", "createdAt"]
+    },
+    "Resume": {
+      "title": "Resume",
+      "description": "Uploaded candidate resume document",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "userId": { "type": "string" },
+        "filename": { "type": "string" },
+        "fileSize": { "type": "number" },
+        "mimeType": { "type": "string" },
+        "rawText": { "type": "string" },
+        "profile": { "type": "object" },
+        "createdAt": { "type": "string", "format": "date-time" },
+        "updatedAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["id", "userId", "filename", "rawText", "createdAt"]
+    },
+    "JobDescription": {
+      "title": "JobDescription",
+      "description": "Target job description and extracted role intelligence",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "userId": { "type": "string" },
+        "title": { "type": "string" },
+        "company": { "type": "string" },
+        "rawText": { "type": "string" },
+        "analysis": { "type": "object" },
+        "createdAt": { "type": "string", "format": "date-time" },
+        "updatedAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["id", "userId", "title", "rawText", "createdAt"]
+    },
+    "CompatibilityMatch": {
+      "title": "CompatibilityMatch",
+      "description": "Job compatibility match and skill gap evaluation",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "userId": { "type": "string" },
+        "resumeId": { "type": "string" },
+        "jobId": { "type": "string" },
+        "overallScore": { "type": "number" },
+        "technicalScore": { "type": "number" },
+        "experienceScore": { "type": "number" },
+        "educationScore": { "type": "number" },
+        "projectScore": { "type": "number" },
+        "semanticScore": { "type": "number" },
+        "skillGaps": { "type": "array" },
+        "createdAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["id", "userId", "resumeId", "jobId", "overallScore", "createdAt"]
+    },
+    "InterviewSession": {
+      "title": "InterviewSession",
+      "description": "Personalized adaptive technical mock interview",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "userId": { "type": "string" },
+        "resumeId": { "type": "string" },
+        "jobId": { "type": "string" },
+        "matchId": { "type": "string" },
+        "mode": { "type": "string" },
+        "difficulty": { "type": "string" },
+        "status": { "type": "string" },
+        "questions": { "type": "array" },
+        "answers": { "type": "array" },
+        "report": { "type": "object" },
+        "createdAt": { "type": "string", "format": "date-time" },
+        "completedAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["id", "userId", "mode", "difficulty", "status", "createdAt"]
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": "User",
+      "description": "User profiles"
+    },
+    "/resumes/{resumeId}": {
+      "schema": "Resume",
+      "description": "User resumes"
+    },
+    "/jobs/{jobId}": {
+      "schema": "JobDescription",
+      "description": "Job descriptions"
+    },
+    "/matches/{matchId}": {
+      "schema": "CompatibilityMatch",
+      "description": "Skill gap and compatibility results"
+    },
+    "/interviews/{interviewId}": {
+      "schema": "InterviewSession",
+      "description": "Interview sessions and reports"
+    }
+  }
+}
